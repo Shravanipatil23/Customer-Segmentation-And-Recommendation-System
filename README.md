@@ -22,9 +22,9 @@ Step 3 : Categorized the columns of the table into categorical features and nume
 
 Step 4 : Performed Exploratory Data Analysis with descriptive statistics and used visualizations to explore relationships between variables. Used matplotlib to create histograms, bar plots, and pie plots to uncover insights into customer behavior and product patterns. For the column "Brand of the Product", since the number of distint values it contained were 48, therefore only top 10 brands were considered for better visualization and understanding.
 
-Step 5 : Started for the segmentation of the customers. Encoded categorical features using LabelEncoder.
+Step 5 : Started for the segmentation of the customers. Imported LabelEncoder, StandardScaler and  Kmeans. Encoded categorical features using LabelEncoder.
 
-Step 6 : Scaled all features using StandardScaler to ensure that all features contributed equally to clustering and recommendation.
+Step 6 : Encoded categorical features using LabelEncoder. Scaled all features using StandardScaler to ensure that all features contributed equally to clustering and recommendation.
 
 Step 7 : Appended list of inertia using KMeans to plot the graph.
 
